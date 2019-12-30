@@ -1,0 +1,197 @@
+/*
+################################################
+#####LOGO#####
+################################################
+*/
+
+.logo {
+    height: 3.25rem;
+    margin-left: 3rem;
+    
+}
+
+
+/*
+################################################
+#####USER NAVIGATION#####
+################################################
+*/
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > * {
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    &__nav {  
+
+        display: block;
+        text-align: center;
+
+        &__navigation {
+            vertical-align: top; 
+            display: inline-block;
+            box-shadow: 
+                1px -1px -1px 1px #000, 
+                -1px 1px -1px 1px #fff, 
+                0 0 6px 3px #fff;
+            border-radius:6px;
+
+            &>li {
+                position: relative;
+                float: left; 
+                border-bottom: 4px #aaa solid; 
+                margin-right: 1px; 
+
+                &>ul {
+                    display: none;
+                    list-style: none;
+                    
+                    &>li>a {
+                        text-decoration: none;
+                    }
+
+                }
+
+                &:hover>ul{
+
+                    display: block;
+                    
+                    &>li{
+                        &>a{
+                            color: #fff;
+                        }
+
+                        &>a:hover{
+                            border-bottom: 2px solid #FF2C55;
+                            padding-bottom: 3px;
+                        }
+
+                    }
+                    
+                    
+
+                }
+
+            }
+
+            &>li>a {
+                margin-bottom: 1px;                
+            }
+
+
+        }
+
+        &>ul {
+            
+            list-style: none;            
+            text-align: center;
+            padding: 0;
+            margin: 0;
+
+            
+
+            &>li {
+                list-style: none;
+                font-size: 1.2em;
+                line-height: 40px;
+                height: 40px;
+                border-bottom: none;
+                padding-right: 10px;
+                padding-left: 10px;
+                
+                &>ul{
+                    display: none;
+                }
+
+                &>a{
+                    text-decoration: none;
+                    color: #fff;
+                    display: block;
+                    transition: .3s;
+                    border-bottom: none;
+
+                    &:hover {
+                        border-bottom: 2px solid #FF2C55;
+                        padding-bottom: 3px;
+                    }
+
+                    &.active{
+                        border-bottom: 2px solid #FF2C55;
+                        padding-bottom: 3px;
+                        
+                    }
+                }
+
+                
+
+            }
+
+        }
+
+    }
+
+    &__login {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: auto;
+        font-size: 14px;
+        outline: 0;
+        -webkit-appearance: none;
+
+        &__btn {
+            
+            font-family: inherit;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            &__btn-primary {
+
+                /* #FFFFFF */
+                background-color: #FF2C55;
+                color: #FFFFFF;
+                border-radius: 6px;
+                padding: 13px 35px;
+                border:none;
+                display: inline-block;
+                letter-spacing: 1px;
+                font-weight: 500;
+                text-align: center;
+
+            }
+
+            &__btn-secondary {
+
+                /* #FFFFFF */
+                background-color: transparent;
+                color: #FFFFFF;
+                border: 1px solid #FF2C55;
+                border-radius: 6px;
+                padding: 13px 35px;            
+                display: inline-block;
+                letter-spacing: 1px;
+                font-weight: 500;
+                text-align: center;
+
+            }
+
+        }
+
+        &__separator {
+
+        }
+
+    }
+
+
+}
