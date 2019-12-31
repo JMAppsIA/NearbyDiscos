@@ -31,12 +31,12 @@ class Header extends Component {
                         <div className="header__login">
                             <Button
                                 buttonName="INGRESAR"
-                                buttonClass="header__login__btn__btn-primary"
+                                buttonClass="btn-primary btn--animated"
                             />
                             <div className="header__login__separator"></div>
                             <Button
                                 buttonName="REGISTRARSE"
-                                buttonClass="header__login__btn__btn-secondary"
+                                buttonClass="btn-secondary btn--animated"
                             />
                         </div>
                     </header>

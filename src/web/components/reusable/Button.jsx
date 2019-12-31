@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Button = ({ eventOkClick , buttonClass, buttonName}) => {
-    var styleButton = "header__login__btn " + buttonClass || '' ;
+    var styleButton = "btn " + buttonClass || '' ;
     
     return(
         <button className={ styleButton }
