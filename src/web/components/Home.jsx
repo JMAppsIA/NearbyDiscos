@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Header from './reusable/Header';
-import Content from './Content';
+import Carouselle from './Carouselle';
 import '../../utils/sass/index.scss';
+import Content from './Content';
 
 class Home extends Component {
 
@@ -9,11 +10,11 @@ class Home extends Component {
     render(){
         return(
             <>
-                <section className="first-section">
+                <section className="overlayGrid first-section">
                     <Header/>
-                    <Content/>
+                    <Carouselle/>
                 </section>
-                    
+                <Content/>
             </>
         );
     }

@@ -8,6 +8,7 @@ BASE
 
 @import 'base/tipografia.scss';
 @import 'base/base.scss';
+@import 'base/keyframes.scss';
 
 /*
 ###############
@@ -15,6 +16,7 @@ COMPONENTES
 ###############
 */
 @import 'components/button.scss';
+@import 'components/table.scss';
 @import 'components/tooltip.scss';
 
 
@@ -24,5 +26,6 @@ LAYOUT
 ###############
 */
 @import 'layout/header.scss';
+@import 'layout/carouselle.scss';
 @import 'layout/content.scss';
 @import 'layout/footer.scss';

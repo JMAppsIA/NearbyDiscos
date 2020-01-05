@@ -1,0 +1,41 @@
+.first-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 250px;
+
+
+
+    
+
+    &>span {
+
+        
+        font-weight: normal;
+        font-size: 62px;
+        line-height: 57px;
+        
+    }
+
+    &>p {
+        text-align: center;
+        margin: 40px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 36px;
+        letter-spacing: -0.2px;
+        
+    }
+
+    &>button {
+        width: 200px;
+        height: 60px;
+        text-align: center;
+    }
+
+}

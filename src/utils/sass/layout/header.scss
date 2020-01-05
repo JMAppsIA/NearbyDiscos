@@ -1,13 +1,32 @@
+
+
 /*
 ################################################
 #####LOGO#####
 ################################################
 */
 
-.logo {
+.div-logo{
+
+    display: flex;
     height: 3.25rem;
-    margin-left: 3rem;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
     
+
+    &__title-logo {
+        margin-right: 10px;    
+        cursor: pointer;
+        font-size: 10px;
+        text-transform: uppercase;
+        
+    }
+
+    &__logo {
+        cursor: pointer;
+    }
+
 }
 
 
@@ -28,19 +47,21 @@
     background-position: top;
     position: relative;
     background-repeat: no-repeat;
+    display: grid;
     
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
-.header {
 
+.header {
+    margin-top:20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     & > * {
         padding: 0;
-        margin: 0;
+        
         cursor: pointer;
     }
 
@@ -54,8 +75,8 @@
             display: inline-block;
             box-shadow: 
                 1px -1px -1px 1px #000, 
-                -1px 1px -1px 1px #fff, 
-                0 0 6px 3px #fff;
+                -1px 1px -1px 1px var(--default-color), 
+                0 0 6px 3px var(--default-color);
             border-radius:6px;
 
             &>li {
@@ -80,7 +101,7 @@
                     
                     &>li{
                         &>a{
-                            color: #fff;
+                            color: var(--default-color);
                         }
 
                         &>a:hover{
@@ -114,7 +135,7 @@
 
             &>li {
                 list-style: none;
-                font-size: 1em;
+                font-size: 16px;
                 line-height: 40px;
                 height: 40px;
                 border-bottom: none;
@@ -127,8 +148,8 @@
 
                 &>a{
                     text-decoration: none;
-                    color: #fff;
-                    display: block;
+                    color: var(--default-color);
+                    
                     transition: .3s;
                     border-bottom: none;
 
@@ -157,7 +178,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        margin-right: 50px;
+        
         
 
         &__separator {
@@ -168,6 +190,13 @@
             right:249px;
             top:10px;
             cursor: auto;           
+
+        }
+
+        &>button { 
+
+            padding: .5rem 1rem;
+            font-size: 13.5px;
 
         }
 
