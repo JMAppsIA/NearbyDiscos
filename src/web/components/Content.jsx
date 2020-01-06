@@ -183,23 +183,24 @@ class Content extends Component {
                 </div>
                 <div className="fourth-content">
                     <div className="fourth-content__title">
+                    <span className="span-title">/ Noticias - Novedades</span>   
+                        <div className="fourth-content__title__subtitle">
+                            <h1>&Uacute;ltimas Noticias </h1>
+                            <img src={arrow} alt="arrow" className=""/>
 
-                    </div>
-                    <div className="fourth-content__slider">
-                        <div className="fourth-content__slider__slides">
-                            <div className="fourth-content__slider__slides__slider-1">
-                                <img src={sliderOne} alt="imgSlider"/>
-                            </div>
-                            <div className="fourth-content__slider__slides__slider-2">
-                            <img src={sliderTwo} alt="imgSlider"/>
-                            </div>
-                            <div className="fourth-content__slider__slides__slider-3">
-                                <img src={sliderOne} alt="imgSlider"/>
-                            </div>
-                            <div className="fourth-content__slider__slides__slider-4">
-                                <img src={sliderTwo} alt="imgSlider"/>
-                            </div>
                         </div>
+                    </div>
+                    <div className="fourth-content__slider">                        
+                            <div className="fourth-content__slider__slider-1">
+                                <img src={sliderOne} alt="imgSlider"/>
+                                <Button
+                                    buttonName="Vida Nocturna"
+                                    buttonClass="btn-primary btn-text btn--animated"
+                                />
+                                <span>Proin in orci quis elit blandit imperdiet ut eu enim.</span>   
+                                <h2>- Abril 30,2019</h2>
+                                <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                            </div>                                                 
                     </div>
                     <div className="fourth-content__pagination">
                         <div className="fourth-content__pagination__dot active"><span></span></div>
