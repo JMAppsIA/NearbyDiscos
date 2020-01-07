@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import Button from './reusable/Button';
 
 import event from '../../utils/img/event1.png';
@@ -11,21 +11,21 @@ import sliderTwo from '../../utils/img/slider2.png';
 class Content extends Component {
 
 
-    render(){
+    render() {
 
         return (
             <>
                 <div className="second-content">
                     <div className="second-content__event">
-                                <img src={event} alt="iconNB" className="second-content__event__img-event"/>
-                                <img src={eventBG} alt="iconNB" className="second-content__event__img-background"/>                            
+                        <img src={event} alt="iconNB" className="second-content__event__img-event" />
+                        <img src={eventBG} alt="iconNB" className="second-content__event__img-background" />
                     </div>
                     <div className="second-content__description">
                         <div className="second-content__description__categories">
                             <Button
-                                        buttonName="DANCE"
-                                        buttonClass="btn-secondary btn-text btn--animated"
-                                    />
+                                buttonName="DANCE"
+                                buttonClass="btn-secondary btn-text btn--animated"
+                            />
                             <Button
                                 buttonName="HOUSE PARTY"
                                 buttonClass="btn-secondary btn-text btn--animated"
@@ -37,14 +37,14 @@ class Content extends Component {
                             <span>Glow Up 4.20</span>
                             <h2>/ 26 Marzo 2020</h2>
                             <h3>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
                             </h3>
                         </div>
                         <div className="second-content__description__buttons">
                             <Button
-                                            buttonName="VER DETALLES"
-                                            buttonClass="btn-secondary btn-text btn--animated"
-                                        />
+                                buttonName="VER DETALLES"
+                                buttonClass="btn-secondary btn-text btn--animated"
+                            />
                             <Button
                                 buttonName="OBTENER TICKET"
                                 buttonClass="btn-secondary btn-text btn--animated"
@@ -57,21 +57,21 @@ class Content extends Component {
                             <div className="second-content__description__timer__days">
                                 <h2>dias</h2><h2> </h2><h2>horas</h2><h2> </h2><h2>minutos</h2><h2> </h2><h2>segundos</h2>
                             </div>
-                            
-                            
+
+
 
                         </div>
                     </div>
                 </div>
                 <div className="third-content">
                     <div className="third-content__title">
-                            <span>/ Eventos</span>
-                            <div className="third-content__title__subtitle">
-                                <h1>Pr&oacute;ximos Eventos </h1>
-                                <img src={arrow} alt="arrow" className=""/>
-                            </div>
-                            <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                            
+                        <span>/ Eventos</span>
+                        <div className="third-content__title__subtitle">
+                            <h1>Pr&oacute;ximos Eventos </h1>
+                            <img src={arrow} alt="arrow" className="" />
+                        </div>
+                        <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+
                     </div>
                     <div className="third-content__table-events">
                         <table className="tbl-default">
@@ -92,7 +92,7 @@ class Content extends Component {
                                     <th>
                                         Entradas
                                     </th>
-                                </tr>                                
+                                </tr>
                             </thead>
                             <tbody>
                                 <tr className="space">
@@ -103,22 +103,22 @@ class Content extends Component {
                                 <tr>
                                     <td>
                                         20/03/2020
-                                        
+
                                     </td>
                                     <td>
-                                        <img src="" alt="iconNB" className=""/>
+                                        <img src="" alt="iconNB" className="" />
                                     </td>
                                     <td>DJ Ocean &amp; DJ Thunder</td>
                                     <td>Global Fridays</td>
                                     <td>
-                                    <Button
+                                        <Button
                                             buttonName="SABER MAS"
                                             buttonClass="btn-secondary btn-text btn--animated"
                                         />
-                                    <Button
-                                        buttonName="OBTENER TICKET"
-                                        buttonClass="btn-secondary btn-text btn--animated"
-                                    />
+                                        <Button
+                                            buttonName="OBTENER TICKET"
+                                            buttonClass="btn-secondary btn-text btn--animated"
+                                        />
                                     </td>
                                 </tr>
                                 <tr className="space">
@@ -128,22 +128,22 @@ class Content extends Component {
                                 </tr>
                                 <tr>
                                     <td>
-                                        20/03/2020                                    
+                                        20/03/2020
                                     </td>
                                     <td>
-                                        <img src="" alt="iconNB" className=""/>
+                                        <img src="" alt="iconNB" className="" />
                                     </td>
                                     <td>DJ Ocean &amp; DJ Thunder</td>
                                     <td>Global Fridays</td>
                                     <td>
-                                    <Button
+                                        <Button
                                             buttonName="SABER MAS"
                                             buttonClass="btn-secondary btn-text btn--animated"
                                         />
-                                    <Button
-                                        buttonName="OBTENER TICKET"
-                                        buttonClass="btn-secondary btn-text btn--animated"
-                                    />
+                                        <Button
+                                            buttonName="OBTENER TICKET"
+                                            buttonClass="btn-secondary btn-text btn--animated"
+                                        />
                                     </td>
                                 </tr>
                                 <tr className="space">
@@ -153,20 +153,20 @@ class Content extends Component {
                                 </tr>
                                 <tr>
                                     <td>
-                                        20/03/2020                                    
+                                        20/03/2020
                                     </td>
                                     <td>
-                                        <img src="" alt="iconNB" className=""/>
+                                        <img src="" alt="iconNB" className="" />
                                     </td>
                                     <td>DJ Ocean &amp; DJ Thunder</td>
                                     <td>Global Fridays</td>
                                     <td>
-                                    <Button
+                                        <Button
                                             buttonName="SABER MAS"
                                             buttonClass="btn-secondary btn-text btn--animated"
-                                        />                                    
+                                        />
                                     </td>
-                                </tr>    
+                                </tr>
                             </tbody>
                             <tfoot>
 
@@ -179,28 +179,42 @@ class Content extends Component {
                             buttonName="Ver todos los eventos"
                             buttonClass="btn-secondary btn-text btn--animated"
                         />
-                    </div> 
+                    </div>
                 </div>
                 <div className="fourth-content">
                     <div className="fourth-content__title">
-                    <span className="span-title">/ Noticias - Novedades</span>   
+                        <span className="span-title">/ Noticias - Novedades</span>
                         <div className="fourth-content__title__subtitle">
                             <h1>&Uacute;ltimas Noticias </h1>
-                            <img src={arrow} alt="arrow" className=""/>
+                            <img src={arrow} alt="arrow" className="" />
 
                         </div>
                     </div>
-                    <div className="fourth-content__slider">                        
-                            <div className="fourth-content__slider__slider-1">
-                                <img src={sliderOne} alt="imgSlider"/>
+                    <div className="fourth-content__slider">
+                        <div className="fourth-content__slider__slider-1">
+                            <img src={sliderOne} alt="imgSlider" className="img-carousel" />
+                            <div className="text">
                                 <Button
                                     buttonName="Vida Nocturna"
                                     buttonClass="btn-primary btn-text btn--animated"
                                 />
-                                <span>Proin in orci quis elit blandit imperdiet ut eu enim.</span>   
+                                <span>Proin in orci quis elit blandit imperdiet ut eu enim.</span>
                                 <h2>- Abril 30,2019</h2>
                                 <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                            </div>                                                 
+                            </div>
+                        </div>
+                        <div className="fourth-content__slider__slider-1">
+                            <img src={sliderOne} alt="imgSlider" className="img-carousel" />
+                            <div className="text">
+                                <Button
+                                    buttonName="Vida Nocturna"
+                                    buttonClass="btn-primary btn-text btn--animated"
+                                />
+                                <span>Proin in orci quis elit blandit imperdiet ut eu enim.</span>
+                                <h2>- Abril 30,2019</h2>
+                                <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                            </div>
+                        </div>
                     </div>
                     <div className="fourth-content__pagination">
                         <div className="fourth-content__pagination__dot active"><span></span></div>
@@ -210,7 +224,7 @@ class Content extends Component {
                     </div>
                 </div>
             </>
-            
+
         );
     }
 
